@@ -1,6 +1,4 @@
 # ocr-tests
-OCR test 
-
 
 ## Test 1:
 
