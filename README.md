@@ -2,13 +2,13 @@
 OCR test 
 
 
-Test 1:
+## Test 1:
 
-The diff between the OCR result of [this image](https://www.tbrc.org/browser/ImageService?work=W1PD95844&igroup=I1PD95940&image=25&first=23&last=636&fetchimg=yes) ([json](https://github.com/ngawangtrinley/ocr-tests/blob/653c4418ceef6066c299d824677c5a5c1724129e/google-vision/test1/response.json)) and the actual text...
+The diff between the text, on the right, and the OCR result of [this image](https://www.tbrc.org/browser/ImageService?work=W1PD95844&igroup=I1PD95940&image=25&first=23&last=636&fetchimg=yes) ([json](https://github.com/ngawangtrinley/ocr-tests/blob/653c4418ceef6066c299d824677c5a5c1724129e/google-vision/test1/response.json)) on the left...
 
 https://github.com/ngawangtrinley/ocr-tests/compare/f0035c4...3baffd5
 
-...highlights several types of issues.
+...highlights several types of issues:
 
 - '༥' 0f25, at the end of the header [wasn't detected](https://github.com/ngawangtrinley/ocr-tests/blob/master/google-vision/test1/59616523_1021243074750126_1267057790891851776_n.png), but somehow an extra '།' 0f0d appeared at [the end of the text](https://github.com/ngawangtrinley/ocr-tests/compare/f0035c4...3baffd5#diff-0b4da83768e1849331590454147c62d3R1)
 - '࿒' 0FD2 is replaced by a ':' 003a at the start of lines, and by '་' 0f0b in [the middle of lines](https://github.com/ngawangtrinley/ocr-tests/compare/f0035c4...3baffd5#diff-0b4da83768e1849331590454147c62d3R7)
