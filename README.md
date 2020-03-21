@@ -4,6 +4,11 @@
 
 The diff between the actual text (left) and the OCR result ([json](https://github.com/ngawangtrinley/ocr-tests/blob/653c4418ceef6066c299d824677c5a5c1724129e/google-vision/test1/response.json)) of [this image](https://www.tbrc.org/browser/ImageService?work=W1PD95844&igroup=I1PD95940&image=25&first=23&last=636&fetchimg=yes) (right)...
 
+
+<iframe src="http://prose.io/#ngawangtrinley/starter"></iframe>
+
+
+
 https://github.com/ngawangtrinley/ocr-tests/compare/f0035c4...3baffd5
 
 ...highlights several types of issues:
